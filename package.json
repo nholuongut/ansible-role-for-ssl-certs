@@ -1,0 +1,23 @@
+{
+  "name": "ansible-ssl-certs",
+  "version": "3.0.0",
+  "description": "Generate and/or deploy SSL certificate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaackehle/ansible-ssl-certs.git"
+  },
+  "author": "Isaac Kehle (isaac@kehle.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaackehle/ansible-ssl-certs/issues"
+  },
+  "homepage": "https://github.com/isaackehle/ansible-ssl-certs#readme",
+  "main": "tasks/main.yml",
+  "keywords": [
+    "ansible"
+  ]
+}

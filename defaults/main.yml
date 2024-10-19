@@ -1,0 +1,33 @@
+---
+
+flags:
+  - none
+
+force:              false
+
+cert_config:
+  country:          ""
+  locality:         ""
+  state:            ""
+  organization:     ""
+  ou:               ""
+  cn:               ""
+  dc:               ""
+  email:            ""
+  subject:          ""
+  days:             365
+
+passphrase:         ""
+
+keygen:
+  bits:             4096
+  encryption:       rsa
+  dhparam_size:     2048
+
+perms:
+  owner:            root
+  group:            root
+  mode:             0755
+
+keyUsage:           'digitalSignature, nonRepudiation, keyEncipherment'
+extendedKeyUsage:   null
